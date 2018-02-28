@@ -1,7 +1,8 @@
 #!/bin/bash  
 git add -A  
-read -p "Commit description: " desc  
-git commit -m $desc  
+IFS= read -r -p "Commit message: " input
+echo "$input"
+git commit -m "$input"  
 echo "**** PULL STARTED ****"
 git pull https://fabriciolbs:lazaroj1@github.com/fabriciolbs/test.git master
 echo "---- PULL FINISHED ----"
