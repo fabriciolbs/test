@@ -1,7 +1,6 @@
 #!/bin/bash  
 git add -A  
 IFS= read -r -p "Commit message: " input
-echo "$input"
 git commit -m "$input"  
 echo "**** PULL STARTED ****"
 git pull https://fabriciolbs:lazaroj1@github.com/fabriciolbs/test.git master
