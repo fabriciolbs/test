@@ -7,7 +7,7 @@ lines=$(git pull https://fabriciolbs:lazaroj1@github.com/fabriciolbs/test.git ma
 echo "---- PULL FINISHED ----"
 if [ $lines == 1 ]
 then
-echo "**** PUSH STARTED ****"
-git push https://fabriciolbs:lazaroj1@github.com/fabriciolbs/test.git master | wc -l
-echo "---- PUSH STARTED ----"
+    echo "**** PUSH STARTED ****"
+    git push https://fabriciolbs:lazaroj1@github.com/fabriciolbs/test.git master | wc -l
+    echo "---- PUSH STARTED ----"
 fi
