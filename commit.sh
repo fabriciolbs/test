@@ -2,5 +2,5 @@
 git add -A  
 read -p "Commit description: " desc  
 git commit -m $desc  
-git pull https://fabricio@lbscanarias.es:lazaroj1@https://github.com/fabriciolbs/test.git
-git push https://fabricio@lbscanarias.es:lazaroj1@https://github.com/fabriciolbs/test.git
+git pull fabricio@lbscanarias.es:lazaroj1@https://github.com/fabriciolbs/test.git
+git push fabricio@lbscanarias.es:lazaroj1@https://github.com/fabriciolbs/test.git
