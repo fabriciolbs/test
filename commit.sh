@@ -5,7 +5,7 @@ git commit -m "$input"
 echo "**** PULL STARTED ****"
 lines=$(git pull https://fabriciolbs:lazaroj1@github.com/fabriciolbs/test.git master | wc -l)
 echo "---- PULL FINISHED ----"
-if [ $lines == 5 ]
+if [ $lines > 0 ]
 then
     echo "**** PUSH STARTED ****"
     git push https://fabriciolbs:lazaroj1@github.com/fabriciolbs/test.git master | wc -l
